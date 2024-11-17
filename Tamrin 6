@@ -1,0 +1,39 @@
+Project 1
+>>> import math
+>>> def BTC(x) :
+...     y = (math.exp(x)) + 1
+...     return y
+...
+>>> BTC(5)
+149.4131591025766
+
+
+Project 2
+>>> def Calclator(a,b) :
+...     y = a+b
+...     c = a-b
+...     f = a/b
+...     g = a*b
+...     t = a**b
+...     print(f"Sum = {y} , Minus = {c} , Decide = {f} , Zarb = {g} , Tavan = {t}")
+...
+>>> Calclator(5,2)
+Sum = 7 , Minus = 3 , Decide = 2.5 , Zarb = 10 , Tavan = 25
+
+
+Project 3 
+>>> 'a'<'b'
+True
+>>> 'a'>='b'
+False
+>>> 'x'<'a'
+False
+
+
+Project 4
+>>> def ETH(a,b):
+...     y = (a+b)/2
+...     return y
+...
+>>> ETH(10,2)
+6.0
