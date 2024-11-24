@@ -1,0 +1,84 @@
+#Project_1
+def Bmi(Weight,Height) : 
+    return (Weight/(Height**2))
+
+Bmi(2,70)
+0.00040816326530612246
+
+
+
+#Project_2
+import math
+
+num1 = int(input("Enter Number 1 : "))
+num2 = int(input("Enter Number 2 : "))
+
+def Calclator(num1,num2):
+
+    s,m,z,d,t = num1+num2 , num1-num2 , num1 * num2 , num1/num2 , num1 ** num2
+    ta,tb,cosa,cosb,sina,sinb,rada,radb,loga,logb,expa,expb = math.tan(num1),math.tan(num2),math.cos(num1),math.cos(num2),math.sin(num1),math.sin(num2),math.sqrt(num1),math.sqrt(num2),math.log(num1),math.log(num2),math.exp(num1),math.exp(num2)
+
+    print(f"Sum is : {s} , Minus is : {m} , Zarb is : {z} , Decide is : {d} , Tavan is : {t}")
+    print(f"Tan1 is : {ta} , Tan2 is : {tb} , Cos1 is : {cosa} , Cos2 is : {cosb} , Sin1 is : {sina} , Sin2 is : {sinb} , Rad1 is : {rada} , Rad2 is : {radb} , Log1 is : {loga} , Log2 is : {logb} , Exp1 is : {expa} , Exp2 is : {expb}")
+    
+Calclator(num1,num2)
+
+Enter Number 1 :  5
+Enter Number 2 :  5
+Sum is : 10 , Minus is : 0 , Zarb is : 25 , Decide is : 1.0 , Tavan is : 3125
+Tan1 is : -3.380515006246586 , Tan2 is : -3.380515006246586 , Cos1 is : 0.28366218546322625 , Cos2 is : 0.28366218546322625 , Sin1 is : -0.9589242746631385 , Sin2 is : -0.9589242746631385 , Rad1 is : 2.23606797749979 , Rad2 is : 2.23606797749979 , Log1 is : 1.6094379124341003 , Log2 is : 1.6094379124341003 , Exp1 is : 148.4131591025766 , Exp2 is : 148.4131591025766
+
+
+
+
+#Project_3
+import math
+
+def Ghost(x,y,z) :
+    R = (math.sqrt((x-y)/z)+math.exp(x+y))
+    return R
+
+Ghost(20,10,5)
+10686474581525.877
+
+
+
+
+#Project_4
+def Btc(r,x) : 
+    y = r*x*(1-x)
+    return y
+
+Btc(10,20)
+-3800
+
+
+
+#Project_5
+def Eth(W1,W2,k) : 
+    y = (W2 - ((W2-W1)/k))*k
+    return y
+
+Eth(30,5,2)
+35.0
+
+
+#Project_6
+import math
+
+def Not(a,b,W1,W2) :
+    y = (1/math.exp(a-b))+1 * (W2-W1)
+    return y
+
+Not(30,20,10,5)
+-5.000226999648812
+
+
+
+#Project_7
+def Fon(f1,f2) :
+    y= (f2-f1)/f2
+    return y
+
+Fon(10,20)
+0.5
