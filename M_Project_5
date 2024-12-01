@@ -1,0 +1,105 @@
+#Project 1 
+Number = int(input("Please Enter Number : "))
+
+if(Number < 0):
+    print(Number * -1)
+
+else : 
+    print(Number)
+
+Please Enter Number :  5
+5
+
+
+
+#Project 2
+a = int(input("Please Enter Number : "))
+
+if(a>0) : 
+    print("Mosbat")
+elif(a<0) : 
+    print("Manfi")
+else : 
+    print("a = 0")
+
+Please Enter Number :  5
+Mosbat
+
+
+
+#Project 3
+import math
+
+a = int(input("Please Enter Number 1 : "))
+b = int(input("Please Enter Number 2 : "))
+
+if(a>b) : 
+    print(math.sqrt((a**2)-(b**2)))
+elif(a<b) :
+    print(math.sqrt((b**2)-(a**2)))
+else : 
+    print(a-b)
+
+Please Enter Number 1 :  5
+Please Enter Number 2 :  2
+4.58257569495584
+
+
+
+#Project 4
+import math
+
+a = int(input("Please Enter Number : "))
+
+if(a<0) :
+    print((1/math.exp(-a))+1)
+
+elif(a>1) :
+    print((1/1)+math.exp(-a))
+
+else : 
+    print("True")
+
+Please Enter Number :  5
+1.0067379469990854
+
+
+
+#Project 5
+num = float(input("Plaese Enter Number : "))
+
+def Pond() : 
+    y = (num*0.4536 )*1000
+    print(y)
+
+Pond()
+
+Plaese Enter Number :  5
+2268.0
+
+
+
+#Project 6
+num = int(input("Please Enter Number : "))
+
+def Farenhait() : 
+    y = (Farenhait-32)/1.8
+    print(y)
+F()
+
+Please Enter Number :  5
+-15.0
+
+
+
+#Project 7 
+num = int(input("Plaease Enter Number : "))
+
+def inch() :
+    y = num*2.54
+    print(y)
+
+inch()
+
+Plaease Number :  2
+5.08
