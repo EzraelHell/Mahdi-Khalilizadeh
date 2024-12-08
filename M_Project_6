@@ -1,0 +1,55 @@
+#Project 1
+num = int(input("please Enter Number Fibonacci : "))
+for i in range(num):
+    print(fibonacci(i))
+
+def fibonacci(n):
+    if n <= 0:
+        return 0
+    elif n == 1:
+        return 1
+    else:
+        return fibonacci(n - 1) + fibonacci(n - 2)
+please Enter Number Fibonacci :  10
+0
+1
+1
+2
+3
+5
+8
+13
+21
+34
+
+
+
+#Project 2
+num = int(input("Please Enter Number : "))
+print(f"factorial {num} : {factorial(num)}")
+
+def factorial(n):
+    if n == 0 or n == 1:
+        return 1
+    else:
+        return n * factorial(n - 1)
+Please Enter Number :  10
+factorial 10 : 3628800
+
+
+#Project 3
+start = int(input("Please Enter Number 1 : "))
+end = int(input("Please Enter Number 2 : "))
+count_up(start, end)
+
+def count_up(start, end):
+    if start > end:
+        return
+    else:
+        print(start, end=" ")
+        count_up(start + 1, end)
+Please Enter Number 1 :  10
+Please Enter Number 2 :  20
+10 11 12 13 14 15 16 17 18 19 20 
+
+
