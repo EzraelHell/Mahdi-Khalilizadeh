@@ -1,0 +1,25 @@
+#Project End
+#مدیریت لیست خرید
+
+shop_list = [];
+
+while True : 
+
+    print("1 : Add Item")
+    print("2 : Remove Item")
+    print("3 : View List Shoping")
+    print("4 : Exit")
+
+    choise = int(input("Please Enter Number : "))
+
+    if(choise == 1):
+        item = input("Please Enter Item : ")
+        shop_list.append(item);
+    elif(choise == 2):
+        item = input("Please Enter Item : ")
+        shop_list.remove(item);
+    elif(choise == 3):
+        print(shop_list)
+    elif(choise == 4):
+        print("Goodbye")
+        break;
